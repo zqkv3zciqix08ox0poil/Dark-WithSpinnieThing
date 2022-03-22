@@ -377,14 +377,12 @@ And spinne thing made cooler by Kebabrullen*/
 .avatar-2e8lTP.clickable-31pE3P {
   filter: drop-shadow(0 0 3px);
   color: var(--darkplus-sec);
+  transform: scale(1.0) rotate(-365deg); transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
-  transform: scale(1.2) rotate(360deg);
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
-  transform: scale(1.2) rotate(-360deg);
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+  transform: scale(1.2) rotate(0deg); transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
 .membersWrap-3NUR2t {
